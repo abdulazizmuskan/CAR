@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Showroom</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .car {
+        border: 1px solid #ccc;
+        margin: 1rem;
+        padding: 1rem;
+        max-width: 300px;
+        text-align: center;
+      }
+
+      .car img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Our Car Showroom</h1>
+    </header>
+    <div class="container">
+      <div class="car" onclick="location.href='omni.html';">
+        <img src="omni.webp" alt="Car 1" />
+        <h2>Omni</h2>
+        <p>Price: INR 4 lakh*</p>
+      </div>
+      <div class="car" onclick="location.href='Thar.html';">
+        <img src="thar.jpg" alt="Car 2" />
+        <h2>Thar</h2>
+        <p>Price: INR 21 Lakh *</p>
+      </div>
+      <div class="car" onclick="location.href='toyota.html';">
+        <img src="supra.jpg" alt="Car 3" />
+        <h2>Toyota Supra</h2>
+        <p>Price: INR 1.70 cr*</p>
+      </div>
+    </div>
+    <footer>
+      <p>&</p>
+    </footer>
+  </body>
+</html>
